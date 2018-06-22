@@ -1,0 +1,2 @@
+https://jingyan.baidu.com/article/0a52e3f4dc3f4abf63ed7259.html
+mount \\your-server-ip\nfs-folder-name x:
