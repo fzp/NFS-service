@@ -1,8 +1,6 @@
 #!/usr/bin/env sh
 # https://linux.die.net/man/5/exports
 # https://github.com/ehough/docker-nfs-server
-sudo modprobe nfs
-sudo modprobe nfsd
 SCRIPT_DIR=$(cd $(dirname $0) && pwd)
 docker run -d                                   \
   -v $SCRIPT_DIR/data:/nfs                      \
